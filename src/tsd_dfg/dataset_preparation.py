@@ -153,28 +153,6 @@ def load_class_config_with_effective_id(file_path: str, verbose: bool = False) -
     return df
 
 
-# def generate_yolo_training_config_yaml(
-#         train_json: dict,
-#         val_json: dict,
-#         save: bool = True,
-#         save_path: str = "dfg_tsd.yaml") -> str:
-#     assert train_json['categories'] == val_json['categories'], \
-#         "Training and validation sets have different categories."
-#
-#     yaml_text = YAML_HAT
-#
-#     for i in train_json['categories']:
-#         yaml_text += f"  {i['id']}: {i['name']}\n"
-#
-#     yaml_text = yaml_text.strip()
-#
-#     if save:
-#         with open(save_path, "w") as f:
-#             f.write(yaml_text)
-#
-#     return yaml_text.strip()
-
-
 def generate_yolo_training_config_yaml(df: pd.DataFrame, save: bool = True, save_path: str = "dfg_tsd.yaml") -> str:
     yaml_text = YAML_HAT
     for _, row in df[df['enabled'] == 1].iterrows():
@@ -187,23 +165,6 @@ def generate_yolo_training_config_yaml(df: pd.DataFrame, save: bool = True, save
             f.write(yaml_text)
 
     return yaml_text.strip()
-
-
-# def prepare_label_text(image_info):
-#     text = ""
-#     for obj in image_info['annotations']:
-#
-#         if obj.get('ignore', False):
-#             continue
-#
-#         ci = obj['category_id']
-#         cx = np.clip((obj['bbox'][0] + obj['bbox'][2] / 2) / image_info['width'], 0, 1)
-#         cy = np.clip((obj['bbox'][1] + obj['bbox'][3] / 2) / image_info['height'], 0, 1)
-#         bw = np.clip(obj['bbox'][2] / image_info['width'], 0, 1)
-#         bh = np.clip(obj['bbox'][3] / image_info['height'], 0, 1)
-#
-#         text += f"{ci} {cx:.5f} {cy:.5f} {bw:.5f} {bh:.5f}\n"
-#     return text.strip()
 
 
 def prepare_label_text(image_info, class_config_df):

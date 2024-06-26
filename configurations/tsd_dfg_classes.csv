@@ -50,7 +50,7 @@ id,code,name,enabled
 48,II-26.1,Right turn prohibited.,1
 49,II-28,No overtaking.,1
 50,II-3,Road closed to all traffic in both directions.,1
-51,II-30-10,Maximum speed limit 10.,1
+51,II-30-10,Maximum speed limit 10.,0
 52,II-30-30,Maximum speed limit 30.,1
 53,II-30-40,Maximum speed limit 40.,1
 54,II-30-50,Maximum speed limit 50.,1
@@ -60,13 +60,13 @@ id,code,name,enabled
 58,II-33,Give way to oncomming traffic.,1
 59,II-34,No stopping or parking.,1
 60,II-35,No parking.,1
-61,II-39,Snow chains mandatory.,1
+61,II-39,Snow chains mandatory.,0
 62,II-4,Road closed in this direction.,1
-63,II-40,Bike path.,1
-64,II-41,Pedestrian path.,1
-65,II-42,Segregated path for pedestrians and bicycles.,1
-66,II-42.1,Segregated path for pedestrians and bicycles.,1
-67,II-43,Shared path for pedestrians and bicycles.,1
+63,II-40,Bike path.,0
+64,II-41,Pedestrian path.,0
+65,II-42,Segregated path for pedestrians and bicycles.,0
+66,II-42.1,Segregated path for pedestrians and bicycles.,0
+67,II-43,Shared path for pedestrians and bicycles.,0
 68,II-45,Proceed straight.,1
 69,II-45.1,Turn left.,1
 70,II-45.2,Turn right.,1
@@ -76,29 +76,29 @@ id,code,name,enabled
 74,II-47,Keep right.,1
 75,II-47.1,Keep left.,1
 76,II-48,Roundabout mandatory.,1
-77,II-6,Road closed to buses.,1
-78,II-7,Road closed to trucks.,1
-79,II-7.1,Road closed to trucks over the shown maximum permissible weight in metric tonnes.,1
-80,II-8,Road closed to tanker trucks carrying dangerous water pollutants.,1
+77,II-6,Road closed to buses.,0
+78,II-7,Road closed to trucks.,0
+79,II-7.1,Road closed to trucks over the shown maximum permissible weight in metric tonnes.,0
+80,II-8,Road closed to tanker trucks carrying dangerous water pollutants.,0
 81,III-1,Priority over oncoming traffic.,1
 82,III-10,Motorway.,1
-83,III-105,Road distance marker.,1
-84,III-105.1,Road distance marker.,1
-85,III-105.3,Road distance marker.,1
-86,III-107-1,Curve marker.,1
-87,III-107-2,Curve marker.,1
-88,III-107.1-1,Curve marker.,1
-89,III-107.1-2,Curve marker.,1
-90,III-107.2-1,Curve marker.,1
-91,III-107.2-2,Curve marker.,1
-92,III-112,Traffic lane management.,1
-93,III-113,Traffic lane management.,1
+83,III-105,Road distance marker.,0
+84,III-105.1,Road distance marker.,0
+85,III-105.3,Road distance marker.,0
+86,III-107-1,Curve marker.,0
+87,III-107-2,Curve marker.,0
+88,III-107.1-1,Curve marker.,0
+89,III-107.1-2,Curve marker.,0
+90,III-107.2-1,Curve marker.,0
+91,III-107.2-2,Curve marker.,0
+92,III-112,Traffic lane management.,0
+93,III-113,Traffic lane management.,0
 94,III-12,Limited access road.,1
 95,III-120,School zone.,1
 96,III-120-1,School zone.,1
 97,III-120.1,School zone.,1
 98,III-123,Speed radar.,1
-99,III-124,Emergency station.,1
+99,III-124,Emergency station.,0
 100,III-14,Village.,1
 101,III-14.1,Village.,1
 102,III-15,End of village.,1
@@ -112,9 +112,9 @@ id,code,name,enabled
 110,III-203-2,,0
 111,III-206-1,,0
 112,III-21,End all restrictions.,1
-113,III-23,End bike path.,1
-114,III-25,End segregated path for pedestrians and bicycles.,1
-115,III-25.1,End segregated path for pedestrians and bicycles.,1
+113,III-23,End bike path.,0
+114,III-25,End segregated path for pedestrians and bicycles.,0
+115,III-25.1,End segregated path for pedestrians and bicycles.,0
 116,III-27,No parking zone.,1
 117,III-29-30,Speed limit zone 30.,1
 118,III-29-40,Speed limit zone 40.,1
@@ -122,70 +122,70 @@ id,code,name,enabled
 120,III-30-30,End speed limit zone 30.,1
 121,III-33,Traffic calmed area.,1
 122,III-34,Traffic calmed area.,1
-123,III-35,Parking.,1
-124,III-37,Metered parking.,1
-125,III-39,First aid post.,1
-126,III-40,Mechanic.,1
-127,III-42,Caravan waste station.,1
+123,III-35,Parking.,0
+124,III-37,Metered parking.,0
+125,III-39,First aid post.,0
+126,III-40,Mechanic.,0
+127,III-42,Caravan waste station.,0
 128,III-43,Petrol station.,1
-129,III-45,Restaurant.,1
-130,III-46,Refreshment bar.,1
-131,III-47,Picnic area.,1
+129,III-45,Restaurant.,0
+130,III-46,Refreshment bar.,0
+131,III-47,Picnic area.,0
 132,III-5,Cyclist crossing.,1
-133,III-50,Camping and caravan grounds.,1
+133,III-50,Camping and caravan grounds.,0
 134,III-54,Bus stop.,1
-135,III-59,Information.,1
+135,III-59,Information.,0
 136,III-6,Pedestrian crossing.,1
-137,III-64,Številka serpentine.,1
-138,III-68,River sign.,1
-139,III-74,Radio information.,1
-140,III-77,Water protection zone.,1
-141,III-78,Bike route.,1
-142,III-8-1,Dead end road.,1
-143,III-84,Direction table.,1
-144,III-84-1,Direction table.,1
-145,III-85-2,Direction table.,1
-146,III-85-3,Direction table.,1
-147,III-85.1,Direction table.,1
-148,III-86-1,Direction signpost.,1
-149,III-86-2,Direction signpost.,1
-150,III-87,Direction table.,1
-151,III-90,Direction table.,1
-152,III-90.1,Direction table.,1
-153,III-90.2,Direction table.,1
-154,III-91,Direction table.,1
-155,IV-1,Above sign effective after the distance shown.,1
-156,IV-1.1,Stop sign ahead after the distance shown.,1
+137,III-64,Številka serpentine.,0
+138,III-68,River sign.,0
+139,III-74,Radio information.,0
+140,III-77,Water protection zone.,0
+141,III-78,Bike route.,0
+142,III-8-1,Dead end road.,0
+143,III-84,Direction table.,0
+144,III-84-1,Direction table.,0
+145,III-85-2,Direction table.,0
+146,III-85-3,Direction table.,0
+147,III-85.1,Direction table.,0
+148,III-86-1,Direction signpost.,0
+149,III-86-2,Direction signpost.,0
+150,III-87,Direction table.,0
+151,III-90,Direction table.,0
+152,III-90.1,Direction table.,0
+153,III-90.2,Direction table.,0
+154,III-91,Direction table.,0
+155,IV-1,Above sign effective after the distance shown.,0
+156,IV-1.1,Stop sign ahead after the distance shown.,0
 157,IV-10,Disabled parking.,1
 158,IV-11,Tow-away zone.,1
-159,IV-12,Above sign valid during rainy weather.,1
-160,IV-12.1,Above sign valid during winter weather.,1
-161,IV-13-1,Priority route diagram.,1
-162,IV-13-2,Priority route diagram.,1
-163,IV-13-3,Priority route diagram.,1
-164,IV-13-4,Priority route diagram.,1
-165,IV-13-5,Priority route diagram.,1
-166,IV-13-6,Priority route diagram.,1
-167,IV-13.1-2,Priority route diagram.,1
-168,IV-13.1-3,Priority route diagram.,1
-169,IV-13.1-4,Priority route diagram.,1
-170,IV-16,Rutted road.,1
-171,IV-17,Two-way bike path.,1
+159,IV-12,Above sign valid during rainy weather.,0
+160,IV-12.1,Above sign valid during winter weather.,0
+161,IV-13-1,Priority route diagram.,0
+162,IV-13-2,Priority route diagram.,0
+163,IV-13-3,Priority route diagram.,0
+164,IV-13-4,Priority route diagram.,0
+165,IV-13-5,Priority route diagram.,0
+166,IV-13-6,Priority route diagram.,0
+167,IV-13.1-2,Priority route diagram.,0
+168,IV-13.1-3,Priority route diagram.,0
+169,IV-13.1-4,Priority route diagram.,0
+170,IV-16,Rutted road.,0
+171,IV-17,Two-way bike path.,0
 172,IV-18,Children in the road.,1
-173,IV-2,Above sign effective for the duration of the distance shown.,1
+173,IV-2,Above sign effective for the duration of the distance shown.,0
 174,IV-20-1,,0
-175,IV-3-1,Above sign effective ahead in the direction and distance shown.,1
-176,IV-3-2,Above sign effective ahead in the direction and distance shown.,1
-177,IV-3-4,Above sign effective ahead in the direction and distance shown.,1
-178,IV-3-5,Above sign effective ahead in the direction and distance shown.,1
-179,IV-5,Additional explanation plate.,1
-180,IV-6,Additional explanation plate.,1
-181,VI-2.1,Hazard marker.,1
-182,VI-3-1,Hazard marker.,1
-183,VI-3-2,Hazard marker.,1
-184,VI-3.1-1,Hazard marker.,1
-185,VI-3.1-2,Hazard marker.,1
-186,VI-8,Traffic island marker.,1
+175,IV-3-1,Above sign effective ahead in the direction and distance shown.,0
+176,IV-3-2,Above sign effective ahead in the direction and distance shown.,0
+177,IV-3-4,Above sign effective ahead in the direction and distance shown.,0
+178,IV-3-5,Above sign effective ahead in the direction and distance shown.,0
+179,IV-5,Additional explanation plate.,0
+180,IV-6,Additional explanation plate.,0
+181,VI-2.1,Hazard marker.,0
+182,VI-3-1,Hazard marker.,0
+183,VI-3-2,Hazard marker.,0
+184,VI-3.1-1,Hazard marker.,0
+185,VI-3.1-2,Hazard marker.,0
+186,VI-8,Traffic island marker.,0
 187,VII-4,,0
 188,VII-4-1,,0
 189,VII-4-2,,0
